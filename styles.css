@@ -551,7 +551,7 @@ label{
         display: none;
     }
 
-        .maindealsbox img{
+    .maindeals section img{
         width: 300px;
     }
 
@@ -643,7 +643,7 @@ label{
     .buttoncart{
         display: flex;
     }
-        .maindealsbox img{
+    .maindeals section img{
         width: 400px;
     }
 
