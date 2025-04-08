@@ -643,10 +643,6 @@ label{
     .buttoncart{
         display: flex;
     }
-    .maindeals section img{
-        width: 400px;
-    }
-
     
     #closecart{
         display: block;
