@@ -1,0 +1,665 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    padding: 2px 30px 0px 30px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    
+}
+
+header #signup{
+    float: right;
+    margin: 10px 10% 0 0;
+    padding: 20px;
+    background-color: rgb(156, 156, 255);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+
+header a:hover{
+    transform: scale(1.1);
+}
+
+header img{
+    margin-left: 10%;
+    width: 100px;
+    transition: transform .2s;
+}
+
+header img:hover{
+    transform: scale(1.1);
+}
+
+.bannermain{
+    width: 100%;
+    position: absolute;
+}
+
+.bannerphone{
+    display: none;
+}
+
+.box1{
+    width: 500px;
+    top: 150%;
+    left: 50%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 input[type=text]{
+    width: 90%;
+    text-align: center;
+}
+
+#dmap, #tmap{
+    background-color: rgb(100, 196, 228);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#dmapclose, #tmapclose{
+    background-color: rgb(232, 76, 76);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#dmap:hover, #tmap:hover, #dmapclose:hover, #tmapclose:hover{
+    font-size: larger;
+    color: black;
+}
+
+.location{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px black;
+    transition: transform .2s;
+
+}
+
+.location:hover{
+    transform: scale(1.1);
+}
+
+.but{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.but p{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    transition: transform .2s;
+}
+
+.but p:hover{
+    transform: scale(1.1);
+}
+
+.but .active{
+    background-color: rgb(222, 230, 230);
+    padding: 20px;
+    margin: 0;
+    color: #e42525;
+    border-radius: 10px 10px 0 0;
+}
+
+input[type=text], select, input[type=email], textarea, input[type=number], input[type=button], input[type=password]{
+    width: 400px;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+    border: 1px solid rgb(198, 198, 198);
+    color:rgb(198, 198, 198);
+}
+
+fieldset{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mobilebtn, #emailbtn{
+    text-align: center;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 40px;
+    margin: 10px 0 10px 0;
+    border-radius: 10px;
+    border: 1px solid rgb(198, 198, 198);
+    color:rgb(198, 198, 198);
+}
+
+.content{
+    text-align: center;
+    width: 100%;
+}
+
+figure{
+    display: none;
+}
+
+iframe{
+    width: 100%;
+    
+}
+
+#takeaway{
+    display: none;
+}
+
+.title2{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.title2 hr{
+    flex-grow: 1;
+    border: 0;
+    border-top: 2px solid #000;
+}
+
+.title2 h2{
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.maindealsbox{
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+}
+    
+
+.maindeals section img{
+    margin: 3%;
+    width: 600px;
+    height: 400px;
+    transition: transform .2s;
+}
+
+.maindeals section img:hover{
+    transform: scale(1.1);
+}
+
+.btdeals{
+    text-align: center;
+    margin: 20px;
+}
+
+.btdeals a{
+    text-decoration: none;
+    padding: 10px 100px 10px 100px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+
+.btdeals a:hover{
+    transform: scale(1.5);
+    background-color: red;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+
+}
+
+.footer1 section, .footer2 section, .footer3 section{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer2 section{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer1, .footer3{
+    display: flex;
+}
+.footer1 section{
+    width: 150px;
+}
+
+.footer4{
+    text-align: center;
+}
+.footer5{
+    color: rgb(168, 178, 186);
+    text-align: center;
+}
+
+.footer3 img, .footer4 img{
+    width: 30px;
+}
+
+.footer1 li{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer1 ul{
+    padding: 0;
+    margin: 0;
+}
+
+.line{
+    padding: 5px;
+    height: 300px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+}
+
+/* sing up page styles*/
+.signupbox{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 3px black;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.signupflex{
+    display: flex;
+}
+
+.signupflex section{
+    padding: 20px;
+}
+
+.signupbox h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+/*deals page styles*/
+.mainflex{
+    display: flex;
+    max-width: 100%;
+}
+
+.headdeals{
+    width: 1050px;
+    height: 100px;
+    padding: 2px 30px 0px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgb(8, 8, 8);
+}
+
+.headdeals a{
+    float: right;
+}
+
+.headdeals img{
+    margin-left: 10%;
+    width: 100px;
+    transition: transform .2s;
+}
+
+.headdeals img:hover{
+    transform: scale(1.1);
+}
+
+.deals{
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart{
+    width: 500px;
+    float: right;
+    position: fixed;
+    margin-left: 75%;
+}
+
+.cartphone{
+    display: none;
+}
+
+.cart .box{
+    width: 350px;
+    position: absolute;
+}
+
+.cart h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cart a{
+    color: #a5a3a3;
+}
+
+.cost{
+    display: flex;
+}
+
+.costfee{
+    margin-left: 70%;
+}
+
+.cart .emptymg{
+    font-size: small;
+    color: #a5a3a3;
+    margin-top: 200px;
+}
+
+.cart section{
+    margin-top: 60%;
+}
+
+.list ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.list li{
+    display: inline;
+    padding: 20px;
+    background-color: #a5a3a3;
+    margin: 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.dealsfull{
+    width: 80%;
+    display: block;
+}
+
+.headdeals input[type=button]{
+    color: #000;
+    text-transform: uppercase;
+    padding: 1px;
+    border: 1px solid black;
+    width: 250px;
+}
+
+
+.dealsfull section{
+    display: ruby;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #f6f6f6;
+}
+
+.dealsfull section .card img{
+    display: block;
+    width: 300px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.price, .add{
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price{
+    background-color: grey;
+}
+
+.add{
+    background-color: rgb(17, 206, 17);
+}
+
+.box button{
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(36, 185, 28);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#voucher{
+    color: rgb(29, 217, 19);
+    text-align: center;
+}
+
+#meltsdealscont{
+    display: none;
+}
+
+#pizzadetalscont{
+    display: none;
+}
+
+#alldelascont{
+    display: block;
+}
+
+.dealsfull section .card:hover, .card .add:hover{
+    transform: scale(1.1);
+}
+
+.list .active{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+
+.sendbt{
+    background-color: rgb(79, 160, 79);
+    color: aliceblue;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label{
+    color: rgb(198, 198, 198);
+}
+
+
+
+::placeholder{
+    color: rgb(198, 198, 198);
+}
+
+#closecart{
+    display: none;
+}
+
+.mapfull{
+    margin-top: 10px;
+}
+/*in the phone screen*/
+@media only screen and (max-width: 800px) {
+    .bannerphone{
+        display: block;
+        width: 100%;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .box1{
+        width: 400px;
+    }
+
+    .deals{
+        width: 100%;
+    }
+    .deals section img{
+        width: 400px;
+        height: auto;
+    }
+
+    footer{
+        text-align: center;
+    }
+    .footer1{
+        display: block;
+    }
+
+    .footer3{
+        margin-top: 20px;
+    }
+
+
+    .dealsfull section img{
+        margin: 5px;
+        width: 400px;
+    }
+
+    .list{
+        margin-top: 50px;
+    }
+
+    .headdeals input[type=button]{
+        width: 150px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+
+    .dealsfull{
+        width: 400px;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+
+
+    input[type=text], select, input[type=email], textarea, input[type=number], input[type=button], input[type=password]{
+        width: 90%;
+        height: 40px;
+    }
+    
+
+    .signupflex{
+        display: inline;
+    }
+
+    .line{
+        display: none;
+    }
+
+
+
+    fieldset{
+        width: 90%;
+    }
+
+    fieldset input[type=number]{
+    width: 80%;
+
+    }
+
+    fieldset button{
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .cart{
+        display: none;
+    }
+
+    .buttoncart{
+        display: flex;
+    }
+
+    #closecart{
+        display: block;
+        background-color: #f12525;
+        margin-left: 5px;
+    }
+
+    .cartphone{
+        display: block;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    #cartphone{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgb(67, 235, 92);
+        margin-bottom: 0;
+        height: 50px;
+        color: white;
+    }
+}
