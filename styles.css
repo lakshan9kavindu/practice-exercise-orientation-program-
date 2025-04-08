@@ -551,6 +551,11 @@ label{
         display: none;
     }
 
+        .maindealsbox img{
+        width: 300px;
+    }
+
+
     .box1{
         width: 400px;
     }
@@ -638,7 +643,11 @@ label{
     .buttoncart{
         display: flex;
     }
+        .maindealsbox img{
+        width: 400px;
+    }
 
+    
     #closecart{
         display: block;
         background-color: #f12525;
