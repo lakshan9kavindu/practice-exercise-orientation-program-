@@ -351,10 +351,14 @@ footer a{
 }
 
 .deals{
-    width: 800px;
-    display: block;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 800px;
 }
 
 .cart{
