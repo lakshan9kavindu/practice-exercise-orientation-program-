@@ -571,6 +571,7 @@ label{
     .deals section img{
         width: 400px;
         height: auto;
+        margin: 0;
     }
 
     footer{
