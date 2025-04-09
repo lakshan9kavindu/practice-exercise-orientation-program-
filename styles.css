@@ -580,6 +580,10 @@ label{
         display: block;
     }
 
+    .footer1 section{
+        margin-top: 20px;
+    }
+    
     .footer3{
         margin-top: 20px;
     }
