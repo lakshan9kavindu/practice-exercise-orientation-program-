@@ -636,6 +636,17 @@ label{
     fieldset button{
         width: 90%;
     }
+    .cart .box{
+        width: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+    }
+
+    .cart{
+        width: 100%;
+    }
 }
 
 
@@ -670,5 +681,17 @@ label{
         margin-bottom: 0;
         height: 50px;
         color: white;
+    }
+
+    .cart .box{
+        width: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+    }
+
+    .cart{
+        width: 100%;
     }
 }
