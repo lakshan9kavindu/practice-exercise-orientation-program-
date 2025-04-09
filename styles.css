@@ -558,6 +558,7 @@ label{
     .maindeals section img{
         width: 300px;
         height: auto;
+        margin: 0;
     }
 
 
@@ -571,10 +572,6 @@ label{
     .deals section img{
         width: 400px;
         height: auto;
-    }
-
-    .maindealsbox img{
-        margin: 0;
     }
 
     footer{
