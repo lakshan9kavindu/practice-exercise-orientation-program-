@@ -571,6 +571,9 @@ label{
     .deals section img{
         width: 400px;
         height: auto;
+    }
+
+    .maindealsbox img{
         margin: 0;
     }
 
@@ -581,9 +584,7 @@ label{
         display: block;
     }
 
-    .footer1 section{
-        margin-top: 20px;
-    }
+
     
     .footer3{
         margin-top: 20px;
